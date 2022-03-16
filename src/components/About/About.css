@@ -1,0 +1,37 @@
+#inputGroup-sizing-default{
+    width: 130px;
+    font-weight: 500;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(27, 62, 73);
+    color: #fff;
+}
+#inputGroup-sizing-lg{
+    width: 130px;
+    font-size: 15px;
+    text-align: center;
+    justify-content: center;
+    font-weight: 500;
+    background-color: rgb(27, 62, 73);
+    color: #fff;
+}
+#inputField{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+#img{
+    border-radius: 20px;
+}
+
+@media (max-width: 480px){
+    #inputField{
+        display: grid;
+        grid-template-columns: 1fr ;
+    }
+    .inputField{
+        margin-left: 40px;
+    }
+    #img{
+        width: 350px;
+    }
+}

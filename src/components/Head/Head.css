@@ -1,0 +1,50 @@
+#headerlogo{
+    height: 8%;
+    width: 8%;
+    border-radius: 30px;
+}
+.banner{
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://i.postimg.cc/zXQ6T6R8/Banner.jpg");
+}
+.bannerText{
+    color: rgb(213, 221, 230);
+    padding-top: 7%;
+}
+.bannerText button{
+    font-weight: 600;
+    padding: 15px;
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(179, 202, 97);
+    color: white;
+    opacity: 1;
+    transition: 0.3s;
+}
+.bannerText button:hover{
+    background-color: rgb(179, 213, 241);
+    color: black;
+    opacity: 0.6;
+}
+.loginbtn{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 600;
+}
+#loginbtn{
+    text-decoration:none;
+}
+@media only screen and (max-width: 480px) {
+    .bannerText{
+        width: 50%;
+        padding-bottom: 2%;
+        margin-left: 25%;
+    }
+    .banner {
+      width: auto;
+      height: 80%;
+    }
+}

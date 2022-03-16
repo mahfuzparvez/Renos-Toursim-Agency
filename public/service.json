@@ -1,0 +1,66 @@
+[
+    {
+        "id": "1",
+        "img1": "https://i.postimg.cc/qRr9zK6K/antwerp1.jpg",
+        "img2": "https://i.postimg.cc/Fzs8xQZs/antwerp2.jpg",
+        "Price": "310",
+        "Name": "Antwerp",
+        "Description": "Antwerp's maritime climate is fairly mild throughout the year grey and rainy days are common, however, and the weather gets pretty chilly in January. The Antwerp travel season peaks during the summer, and you can count on the warm weather holding up from late spring until early autumn. If you're looking for the sweet spot of good weather and fewer tourist crowds, make the most of the post-summer lull and visit Antwerp in September"
+    },
+    {
+        "id": "2",
+        "img1": "https://i.postimg.cc/26TXyKDp/leuven1.jpg",
+        "img2": "https://i.postimg.cc/8c5X6mp7/leuven2.jpg",
+        "Price": "240",
+        "Name": "Leuven",
+        "Description": "Leuven is a city east of Brussels, Belgium, known for its breweries. On a central square is the 15th-century town hall, with its tall spires. The building is decorated with hundreds of statues of local figures, biblical characters and saints. Opposite, the late GothicSt. Peter’s Church houses a “Last Supper” by the Flemish Primitive painter Dieric Bouts. Nearby, Oude Markt is a long square lined with bars and cafes."
+    },
+    {
+        "id": "3",
+        "img1": "https://i.postimg.cc/XvSPz58P/ghent1.jpg",
+        "img2": "https://i.postimg.cc/cHcPYJfb/ghent2.jpg",
+        "Price": "130",
+        "Name": "Ghent",
+        "Description": "Ghent is a city of history. During the Middle Ages, it was one of the richest and most powerful cities in Europe. It was once considered the second largest city north of the alps after Paris. The impact of this rich past can be clearly seen when viewing the imposing architecture of churches and the houses of rich traders. The whole of the city center is restored in this fashion, and still breathes the atmosphere of a thriving late-medieval city state. As the city council made the center free of cars, it is now a very welcoming and open area, which does not fail to impress even the people who live there."
+    },
+    {
+        "id": "4",
+        "img1": "https://i.postimg.cc/fW2rhpCm/brussles1.jpg",
+        "img2": "https://i.postimg.cc/59nZ264H/brussles2.jpg",
+        "Price": "380",
+        "Name": "Brussels",
+        "Description": "Brussels has been the de facto capital of the European Community (and now European Union) for decades, and for a good reason. The city's Gothic- and Baroque-style squares, set between medieval streets, are the playgrounds of international politicians and adventurous tourists alike. Authentic Belgian fare offers hearty comfort food, and daily doses of chocolate and beer are worth every cent. Brussels is cosmopolitan in ways other cities are not – it's truly multilingual (French, German and Dutch). The multicultural influences have led to an explosion of museums, marketplaces, restaurants and boutiques that make it far more than just a sleepy alternative to some of its busier neighbors like Paris or Amsterdam."
+    },
+    {
+        "id": "5",
+        "img1": "https://i.postimg.cc/qMNZBwDY/liege1.jpg",
+        "img2": "https://i.postimg.cc/7Yjt5zpL/liege2.jpg",
+        "Price": "270",
+        "Name": "Liege",
+        "Description": "The city's location is perfect for tourists looking to experience different countries with very short travel times. The rail network takes you to Brussels, Antwerp, Namur and Charleroi, Luxembourg, Maastricht, Paris, Cologne, and Aachen. High-speed trains like the Thalys whisk you off to Brussels in just 40 minutes and Paris Nord (Paris train station map) in just over two hours. From Liege to Maastricht in the Netherlands, it's a mere 33 minutes travel time on the train. Not only does the rail system make up one of the biggest hubs in Europe, but the Liège-Guillemins station is an architectural wonder a tourist might want to visit even if not taking a train."
+    },
+    {
+        "id": "6",
+        "img1": "https://i.postimg.cc/7LkBVkP8/limburg1.jpg",
+        "img2": "https://i.postimg.cc/FHcW3R4V/limburg2.jpg",
+        "Price": "160",
+        "Name": "Limburg",
+        "Description": "Limburg is located west of the Meuse (Dutch: Maas), which separates it from the similarly-named Dutch province of Limburg. To the south it also shares a border with the French-speaking province of Liège, with which it also has historical ties. To the north and west are the old territories of the Duchy of Brabant. Today these are the Flemish provinces of Flemish Brabant and Antwerp to the west, and the Dutch province of North Brabant to the north.The province of Limburg has an area of 2,427 km2 (937 sq mi) which comprises three arrondissements (arrondissementen in Dutch) containing 44 municipalities."
+    },
+    {
+        "id": "7",
+        "img1": "https://i.postimg.cc/x1K5q4vs/namur1.jpg",
+        "img2": "https://i.postimg.cc/Mpkt6SQM/nam-r2.jpg",
+        "Price": "230",
+        "Name": "Namur",
+        "Description": "Namur has been an important trading settlement since Celtic times, straddling east–west and north–south trade routes across the Ardennes, and the Romans established a permanent presence under direction of Julius Caesar. The settlement flourished during the Middle Ages, when the Merovingians built a castle on the rocky spur overlooking the town at the confluence of the Sambre and Meuse. In 1262, Namur was conquered by the Count of Flanders, and sold to Duke Philip the Good of Burgundy in 1421. After Namur became part of the Spanish Netherlands in the 1640s, the castle was considerably strengthened and grew into the present day Citadel. "
+    },
+    {
+        "id": "8",
+        "img1": "https://i.postimg.cc/GtFP9BY4/mons2.jpg",
+        "img2": "https://i.postimg.cc/jq3tk8Jk/mons1.jpg",
+        "Price": "190",
+        "Name": "Mons",
+        "Description": "Mons is the capital of Hainaut province in Belgium's Walloon Region. At its center is the Grand Place, a large cobblestone square dotted with cafes. It's lined with buildings in a mix of architectural styles, notably the centuries-old Town Hall. Nearby is the 17th-century baroque belfry, with sweeping city views. The belfry is on the edge of verdant Parc Château, home to the 11th-century Saint-Calixte Chapel."
+    }
+]

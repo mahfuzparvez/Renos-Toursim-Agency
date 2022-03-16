@@ -1,0 +1,43 @@
+.allCard{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.singleCard{
+    box-shadow: 2px 2px #969696;
+}
+.singleReview{
+    box-shadow: 1px 2px #969696;
+}
+.CardImage{
+    height: 250px;
+}
+.reviewCard {
+    display: flex;
+    justify-content: space-around;
+ }
+ .clinetPhoto{
+     display: grid;
+     grid-template-columns: repeat(3,1fr);
+     margin-left: 8%;
+     
+ }
+.clinetPhoto img{
+    width: 80%;
+     height: 80%;
+}
+@media only screen and (max-width: 480px) {
+    .allCard{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .reviewCard {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+     }
+     .clinetPhoto{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+  }
+ 
+  
