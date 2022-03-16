@@ -6,7 +6,7 @@ const Header = () => {
     const [service, setService] = useState([]);
     const [clinet, setClinet] = useState([]);
     useEffect(() => {
-        fetch("http://localhost:5000/services")
+        fetch("https://afternoon-ocean-04032.herokuapp.com/services")
             .then(res => res.json())
             .then(data => setService(data))
     }, []);
