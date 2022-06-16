@@ -12,11 +12,11 @@ const Head = () => {
                 {/*---------------
               Navbar Section
             -------------- */}
-                <Navbar sticky="top" collapseOnSelect expand="lg" bg="light" variant="light">
+                <Navbar sticky="top" collapseOnSelect expand="lg" id="navBar" variant="light">
                     <Navbar.Brand href="#home" className='h2'><img id="headerlogo" src="https://i.postimg.cc/ZYjn4gTx/icon1-removebg-preview-1.png" alt="" /> Touring with Renos</Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
-                        <Nav className="me-auto h6">
+                        <Nav className="hashlink me-auto h6">
                             <Nav.Link as={HashLink} to="/home">Home</Nav.Link>
                             <Nav.Link as={HashLink} to="/service">Service</Nav.Link>
                             <Nav.Link as={HashLink} to="/review">Review</Nav.Link>

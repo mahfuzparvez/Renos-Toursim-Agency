@@ -1,20 +1,23 @@
-#headerlogo{
+#headerlogo {
     height: 8%;
     width: 8%;
     border-radius: 30px;
 }
-.banner{
+
+.banner {
     height: 650px;
     background-repeat: no-repeat;
     background-size: cover;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("https://i.postimg.cc/zXQ6T6R8/Banner.jpg");
+        url("https://i.postimg.cc/zXQ6T6R8/Banner.jpg");
 }
-.bannerText{
+
+.bannerText {
     color: rgb(213, 221, 230);
     padding-top: 7%;
 }
-.bannerText button{
+
+.bannerText button {
     font-weight: 600;
     padding: 15px;
     border-radius: 30px;
@@ -24,27 +27,41 @@
     opacity: 1;
     transition: 0.3s;
 }
-.bannerText button:hover{
+
+.bannerText button:hover {
     background-color: rgb(179, 213, 241);
     color: black;
     opacity: 0.6;
 }
-.loginbtn{
+
+.loginbtn {
     text-decoration: none;
     color: aliceblue;
     font-weight: 600;
 }
-#loginbtn{
-    text-decoration:none;
+
+#loginbtn {
+    text-decoration: none;
 }
+
+#navBar {
+    font-weight: 700;
+    background: linear-gradient(0deg, rgba(129, 172, 249, 1) 0%, rgba(230, 228, 228, 1) 100%);
+}
+
+.hashlink {
+    font-weight: 700;
+}
+
 @media only screen and (max-width: 480px) {
-    .bannerText{
+    .bannerText {
         width: 50%;
         padding-bottom: 2%;
         margin-left: 25%;
     }
+
     .banner {
-      width: auto;
-      height: 80%;
+        width: auto;
+        height: 80%;
     }
 }

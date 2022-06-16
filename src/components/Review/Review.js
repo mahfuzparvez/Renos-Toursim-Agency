@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import { Card, CardGroup } from 'react-bootstrap';
-import './Review.css';
 const Review = () => {
     const [clinet, setClinet] = useState([]);
     useEffect(() => {
