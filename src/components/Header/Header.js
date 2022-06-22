@@ -51,12 +51,13 @@ const Header = () => {
             {/*------------------- 
                 Clinet Service
             ----------------------*/}
+            <div className="parallax"></div>
             <h2 className='text-center my-4 fw-bold text-info'>HAPPY CLINET</h2>
             <h4 className='text-center my-2 fw-bold'>REVIEW</h4>
             <div className='reviewCard container py-2'>
                 {
-                    clinet.map(clinet => (<CardGroup style={{ width: '26rem' }}>
-                        <Card className="my-2 singleReview">
+                    clinet.map(clinet => (<CardGroup>
+                        <Card className="my-5 mx-5 singleReview">
                             <Card.Img variant="top" src={clinet.img} />
                             <Card.Body>
                                 <Card.Title>I'm: {clinet.ClinetName}</Card.Title>

@@ -9,6 +9,15 @@
 
 .singleReview {
     box-shadow: 1px 2px #969696;
+    width: 500px;
+}
+
+.singleReview Img {
+    width: auto;
+}
+
+.singleReview Body {
+    width: auto;
 }
 
 .CardImage {
@@ -18,6 +27,16 @@
 .reviewCard {
     display: flex;
     justify-content: space-around;
+}
+
+.parallax {
+    background-image: url("https://i.postimg.cc/8P1M7rpN/pexels-h-emre-773471-Copy.jpg");
+    /* background-image: url("https://i.postimg.cc/15QdjM9P/pexels-h-emre-773471-Copy-modified.jpg"); */
+    min-height: 450px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .clinetPhoto {
@@ -51,5 +70,9 @@
     .clinetPhoto {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    .singleReview {
+        width: 250px;
     }
 }

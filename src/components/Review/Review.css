@@ -1,0 +1,16 @@
+.parallax2 {
+    background-image: url("https://i.postimg.cc/FsYs0Z7V/pexels-trushotz-3635300.jpg");
+    /* background-image: url("https://i.postimg.cc/15QdjM9P/pexels-h-emre-773471-Copy-modified.jpg"); */
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#clinetPhoto {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: rgb(193, 210, 240);
+    margin-bottom: -50px;
+}

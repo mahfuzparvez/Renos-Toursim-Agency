@@ -5,19 +5,21 @@
     border-radius: 5px;
     width: 300px;
 }
-.error{
+
+.error {
     color: red;
 }
-.form-select{
+
+.form-select {
     margin-top: 30px;
     margin-left: 525px;
     width: 300px;
     text-align: center
 }
+
 @media only screen and (max-width: 480px) {
-    .form-select{
-        margin-top: 30px;
-        margin-left: 55px;
+    .form-select {
+        margin: 0 auto;
         width: 305px;
         text-align: center
     }

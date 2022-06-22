@@ -30,7 +30,7 @@ const Order = () => {
                 {errors.email && <span className="error">This field is required</span>}
                 <input placeholder="Address" defaultValue="" {...register("address")} /><br />
                 <input placeholder="City" defaultValue="" {...register("city")} /><br />
-                <select className="form-select" aria-label="Default select example" {...register("destination")}>
+                <select className="form-select mt-4" aria-label="Default select example" {...register("destination")}>
                     <option selected>Confirm your travel city</option>
                     <option value="Antwerp">Antwerp</option>
                     <option value="Leuven">Leuven</option>
