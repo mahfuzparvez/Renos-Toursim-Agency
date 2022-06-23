@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Button, Card, Carousel } from 'react-bootstrap';
 import { useParams } from 'react-router';
 import { Link } from 'react-router-dom';
+import './Booking.css';
 const Booking = () => {
     const { serviceId } = useParams();
     const [singleService, setsingleService] = useState([]);
@@ -15,8 +16,7 @@ const Booking = () => {
     return (
         <div>
             <h2 className='text-center my-4 fw-bold'>THIS IS<span className='text-danger'> BOOKED </span>FOR YOU</h2>
-            <Card className='my-4 singleCard container' style={{ width: '28rem' }}>
-                {/* <Card.Img className="CardImage" variant="top" src={serviceId.img1} /> */}
+            <Card id="Booking" className='my-4'>
                 <Carousel fade>
                     <Carousel.Item>
                         <img

@@ -1,0 +1,12 @@
+#Booking {
+    margin: 0 auto;
+    width: 400px;
+}
+
+@media only screen and (max-width: 480px) {
+    #Booking {
+        margin-left: 2%;
+        margin-right: 2%;
+        width: auto;
+    }
+}
